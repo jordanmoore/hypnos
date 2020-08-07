@@ -1,0 +1,457 @@
+/*
+    Designed to work best with the Operator Mono font
+*/
+
+
+
+body {
+    -webkit-font-smoothing: antialiased;
+    font-family: "Operator Mono", Menlo, Monaco, 'Courier New', monospace;
+}
+
+body, .roam-topbar {
+    background: #00162B
+}
+
+/* BODY COLOR */
+
+.rm-pages-title-text,
+.roam-body .roam-app h1,
+.roam-body .roam-app,
+.rm-reference-container > div > div > strong,
+.bp3-menu .rm-search-title {
+    color: #98daf2;
+}
+
+.rm-reference-main strong,
+.rm-reference-container > div > div > strong {
+    color: #98daf2 !important;
+}
+
+/* FONTS */
+
+body, .level2, .level3, .level4, .level5, .level6, div, textarea {
+   font-family: "Operator Mono", Menlo, Monaco, 'Courier New', monospace;
+}
+.level2, .level3, .level4, .level5, .level6 {
+    font-weight: 500;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 500;
+}
+.roam-body .roam-app h1 textarea {
+    font-weight: 500;
+}
+
+
+.roam-body .roam-app h1 {
+    font-size: 28px;
+}
+
+b,
+strong {
+    font-weight: 600;
+}
+
+div {
+    font-size: 14px;
+}
+
+div,
+textarea {
+    font-weight: 400;
+}
+
+.roam-body .roam-app h1, .roam-body .roam-app h2, .roam-body .roam-app h3, .roam-body .roam-app h4, .roam-body .roam-app h5, .roam-body .roam-app h6 {
+    color: #ffc76a;
+}
+
+
+/* LINKS AND TAGS */
+
+.rm-page-ref-brackets {
+    color: #ffc76a;
+    opacity: 0.4;
+}
+
+.rm-page-ref-link-color {
+    font-weight: 500;
+}
+.rm-page-ref-link-color, a, a:hover, .rm-page-ref {
+    color: #ffc76a;
+}
+a:hover {
+    text-decoration-color: #ffc76a;
+    text-underline-position: under;
+}
+
+.rm-page-ref {
+    font-style: italic;
+}
+
+.rm-block-ref {
+    font-size: 1em;
+    color: #8d9fb9;
+    font-style: italic;
+    border-color: rgba(141, 156, 176, .2);
+    transition: border-color 0.26s ease;
+}
+.rm-block-ref:hover {
+    background: none;
+    cursor: pointer;
+    border-color: rgba(141, 156, 176, .5);
+}
+
+.rm-page-ref-tag {
+    background: #ffecd9;
+    box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.06);
+    padding: 3px;
+    color: #000911;
+    font-weight: 500;
+    display: inline-block;
+    padding: 0 3px;
+    border-radius: 2px;
+}
+
+.rm-page-ref-tag:hover {
+    text-decoration: none;
+    color: #ffecd9;
+    background: none;
+    box-shadow: inset 0 0 0 1px #ffecd9;
+}
+
+
+/* SIDEBAR */
+
+.roam-body .roam-app .roam-sidebar-container {
+    background-color: #000911;
+    border-right: 1px rgba(255, 255, 255, .06) solid;
+}
+
+
+.block-border-left {
+    border-left: 1px solid rgba(141, 156, 176, .2);
+}
+
+.starred-pages-wrapper > div:first-of-type {
+    background-color: rgba(255, 255, 255, .06) !important;
+}
+
+.starred-pages a div:before {
+    content: '★ ';
+}
+.roam-body .roam-app .roam-sidebar-container .roam-sidebar-content .starred-pages-wrapper .starred-pages .page {
+    color: #ffc76a;
+    /* opacity: 0.4;*/
+    letter-spacing: -0.002em;
+    font-weight: 400;
+    transition: all 0.16s ease;
+}
+.roam-body .roam-app .roam-sidebar-container .roam-sidebar-content .starred-pages-wrapper .starred-pages .page:hover {
+    background: none;
+    opacity: 1;
+}
+.starred-pages-wrapper .flex-h-box span {
+    color: white;
+    font-weight: 500;
+    font-size: 13px;
+    letter-spacing: 0.02em;
+    /* opacity: 0.4; */
+}
+
+
+/* RIGHT SIDEBAR */
+
+
+#right-sidebar > div {
+    background-color: #000911;
+    border-left: 1px rgba(255, 255, 255, .06) solid;
+}
+
+
+
+/* REFERENCE BOXES*/
+
+.rm-reference-item {
+    margin-top: 8px;
+    border-radius: 6px;
+    border: 1px solid rgba(255, 255, 255, .06);
+    margin-right: 8px;
+    flex: 1 1 100%;
+    word-break: break-word;
+    background-color: #000911;
+    padding: 8px;
+}
+
+/* DAILY LOG */
+
+.roam-log-page, .roam-log-container .roam-log-preview, .roam-log-container .roam-log-page {
+    border-color: rgba(255, 255, 255, .06);
+}
+
+/* SEARCH AND TOOLTIPS */
+
+.roam-body .roam-app .roam-sidebar-container .roam-sidebar-content .top-row:hover {
+    background: #000408;
+}
+
+.bp3-input {
+    box-shadow: 0 0 0 0 rgba(19, 124, 189, 0), 0 0 0 0 rgba(19, 124, 189, 0), inset 0 0 0 1px rgba(16, 22, 26, 0.15), inset 0 0px 0px rgba(16, 22, 26, 0.2);
+}
+.bp3-input:focus,
+.bp3-input.bp3-active {
+    box-shadow: 0 0 0 1px #137cbd, 0 0 0 3px rgba(19, 124, 189, 0.3), inset 0 1px 0px rgba(16, 22, 26, 0.2);
+}
+
+.bp3-popover .bp3-popover-content, .bp3-menu, .bp3-elevation-3 {
+    background: #000408 !important;
+}
+
+.rm-find-or-create-wrapper .rm-menu-item {
+    background: #000408 !important;
+}
+.rm-find-or-create-wrapper .rm-menu-item:hover, .bp3-elevation-3 .dont-unfocus-block:hover {
+    background: #000 !important;
+    color: white !important;
+}
+
+.bp3-menu .rm-search-title:hover {
+    color: white !important;
+}
+
+/* MORE MENU */
+
+.bp3-popover .bp3-popover-arrow-fill {
+    fill: #000408;
+}
+.bp3-menu {
+    color: white;
+}
+
+/* ALL PAGES TABLE */
+
+.rm-pages-title-text strong {
+    font-weight: 600;
+}
+.rm-all-pages .table .rm-pages-row.rm-pages-row-header {
+    background: #00162B;
+    border-radius: 0;
+}
+.rm-all-pages .table .rm-pages-row .rm-pages-col {
+    align-self: center;
+}
+.bp3-text-small span {
+    font-size: 14px;
+}
+.rm-all-pages .table .rm-pages-row.rm-pages-row-header .rm-pages-title-col span,
+.rm-all-pages .table .rm-pages-row.rm-pages-row-header .rm-pages-col span {
+    font-size: 12px;
+    font-weight: 500;
+}
+.rm-clickable-pill,
+.rm-clickable-pill.level1-pill {
+    background-color: #ffc76a;
+    opacity: 1;
+    color: #00162B;
+}
+.checkmark {
+    background: #fff;
+}
+.check-container input:checked ~ .checkmark {
+    background: #33bdea;
+}
+.check-container input:checked ~ .checkmark:after {
+    border-color: #fff;
+}
+.rm-all-pages .table .rm-pages-row {
+    border-color: rgba(255,255,255,0.16);
+}
+
+
+.rm-level2 {
+    font-size: 1.5em;
+}
+.rm-level3 {
+    color: #939aae;
+    font-weight: 400;
+    font-size: 1.3em;
+}
+
+
+/* USER MENU */
+
+
+.roam-body .roam-app .roam-sidebar-container .rm-graph-dropdown {
+    box-shadow: none;
+}
+.bp3-menu-item:hover, .roam-body .roam-app .roam-sidebar-container .rm-graph-dropdown .setting, .roam-body .roam-app .roam-sidebar-container .rm-graph-dropdown .setting:hover {
+    background: #00162B;
+}
+.roam-sidebar-container .rm-db-title-container .rm-db-title, .roam-body .roam-app .roam-sidebar-container .rm-graph-dropdown a {
+    color: white;
+}
+
+
+/* END */
+
+
+
+.rm-query {
+    border: 0.5px solid #e4e9ec;
+    border-radius: 5px;
+}
+
+.title-children-text {
+    font-size: 14px;
+}
+
+.rm-query .rm-query-title {
+    background-color: #f7f8f8;
+    padding: 0.8em;
+    color: #d1dbe2;
+    font-size: 80%;
+}
+
+
+.rm-reference-main.rm-query-content {
+    padding: 0.8em;
+}
+
+.rm-reference-main .rm-reference-item .rm-block-text {
+    font-size: 90%;
+}
+
+
+.roam-log-page.roam-log-preview h1.level2 {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol";
+    font-weight: 700;
+}
+.roam-log-page.roam-log-preview h1.level2 + div {
+    font-size: 13px;
+    position: relative;
+    top: 4px;
+}
+
+.rm-reference-main .rm-reference-item .controls {
+    margin-left: -1em;
+}
+
+.rm-ref-page-view {
+    padding: 0.4em 0.2em;
+}
+
+.roam-body .roam-app .roam-sidebar-container .roam-sidebar-content .starred-pages-wrapper .starred-pages .page {
+    padding: 4px 6px;
+}
+
+
+div.roam-sidebar-container.noselect > div > div {
+    font-size: 14px;
+    letter-spacing: 0.03em;
+}
+.bp3-icon-caret-down::before {
+    content: "⌄";
+    position: relative;
+    top: -4px;
+    opacity: 0.6;
+}
+
+#block-input {
+    background: white;
+}
+
+.roam-body #block-input > span > div {
+    padding: 6px 24px;
+    background: white;
+}
+
+span.bp3-icon-small.bp3-icon-star {
+    display: none;
+    visibility: hidden;
+}
+
+.controls .simple-bullet-outer .simple-bullet-inner {
+    background-color: #cccfd6;
+}
+.kanban-board {
+    background-color: #fff;
+}
+.kanban-card {
+    background-color: white;
+    margin: 8px;
+    box-shadow: 0px 1px 2px #9EB3C0;
+    padding: 10px;
+    border-radius: 2px;
+    line-height: 1.3em;
+}
+.kanban-title {
+    text-align: center;
+    font-weight: bold;
+    padding-top: 6px;
+}
+.kanban-column {
+    background-color: #E4EDF2;
+    margin: 0px 4px 0px 4px;
+    padding: 4px;
+    min-width: 200px;
+    border-radius: 3px;
+}
+
+
+
+
+.intercom-app,
+.intercom-launcher-frame,
+#intercom-container {
+    display: none;
+}
+
+
+
+.roam-body .roam-app .roam-sidebar-container .roam-sidebar-content .log-button .icon {
+    display: none;
+}
+.roam-body .roam-app .roam-sidebar-container .roam-sidebar-content .log-button {
+    font-weight: 600;
+    font-size: 13px;
+    color: white;
+    opacity: 0.4;
+    transition: all 0.16s ease;
+    padding: 8px 27px;
+}
+.roam-body .roam-app .roam-sidebar-container .roam-sidebar-content .log-button div {
+    font-size: 13px;
+    font-weight: 600;
+}
+.roam-body .roam-app .roam-sidebar-container .roam-sidebar-content .log-button:hover {
+    background: none;
+    color: white;
+    opacity: 1;
+}
+.roam-sidebar-container .rm-db-title-container .rm-db-title {
+    font-size: 14px;
+}
+
+.roam-sidebar-content .top-row {
+    margin-bottom: 1.6em;
+}
+
+#buffer.tall {
+    height: calc(100vh - 50px);
+}
+.check-container {
+    padding-right: 4px;
+}
+.content span.rm-page-ref {
+    padding: 4px 1px 1px;
+    /* required for fixing azo */
+}
+.center-proj {
+    text-align: center;
+}
