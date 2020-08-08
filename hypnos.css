@@ -126,6 +126,11 @@ a:hover {
     box-shadow: inset 0 0 0 1px #ffecd9;
 }
 
+/* HIHGLIGHTED BLOCK SELECT */
+.block-highlight-blue {
+    background-color: #000911;
+}
+
 
 /* SIDEBAR */
 
