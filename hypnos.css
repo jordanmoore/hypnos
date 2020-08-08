@@ -230,6 +230,17 @@ a:hover {
     color: white !important;
 }
 
+/* SEARCH */
+
+.bp3-input {
+    background-color: #000911;
+}
+
+.bp3-input:focus {
+    box-shadow: 0 0 0 2px #137cbd;
+    color: white;
+}
+
 /* MORE MENU */
 
 .bp3-popover .bp3-popover-arrow-fill {
