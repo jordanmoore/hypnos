@@ -13,6 +13,10 @@ body, .roam-topbar {
     background: #00162B
 }
 
+*[style*="background-color: rgb(213, 218, 223)"] {
+    background-color: rgba(0, 22, 43, 1) !important;
+}
+
 /* BODY COLOR */
 
 .rm-pages-title-text,
